@@ -102,6 +102,7 @@ function OrganizationEvents(): JSX.Element {
           startTime: '08:00:00',
           endTime: '18:00:00',
         });
+        hideInviteModal();
       }
     } catch (error: any) {
       /* istanbul ignore next */
